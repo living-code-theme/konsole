@@ -1,0 +1,48 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "Konsole",
+  "slug": "konsole",
+  "group": "Terminals",
+  "emoji": "🖥️",
+  "description": "Living Code for Konsole. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://konsole.kde.org",
+  "quick": "See installation instructions",
+  "aliases": [
+    "konsole"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.colorscheme",
+    "living-code-night.colorscheme",
+    "living-code-paper.colorscheme",
+    "living-code-signal.colorscheme"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "Konsole running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "Konsole running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "Konsole running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "Konsole running Living Code Signal"
+    }
+  ]
+}
